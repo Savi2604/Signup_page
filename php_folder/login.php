@@ -12,7 +12,7 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 if ($result->num_rows > 0) {
-    // Store session in Redis
+    
     $token = bin2hex(random_bytes(16));
     $redis->setex("session:$email", 3600, $token); 
     

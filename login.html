@@ -22,6 +22,7 @@
                         <div class="mb-3">
                             <label class="form-label">Password</label>
                             <input type="password" id="login_password" class="form-control">
+                            <div id="loginPasswordError" class="text-danger small mt-1" style="display:none;"></div>
                         </div>
                         <button onclick="submitLogin()" class="btn btn-success w-100">Login</button>
                         <div id="msg" class="mt-3 text-center"></div>
@@ -31,7 +32,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="assests/js/login.js"></script>
 </body>

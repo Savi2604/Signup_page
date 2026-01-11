@@ -1,4 +1,4 @@
-Full-Stack User Profile Management System
+**Full-Stack User Profile Management System**
 This project is a basic User Registration, Login, and Profile Management system. It utilizes multiple databases (MySQL, MongoDB) and caching (Redis) for optimized performance.
 
 🚀 Features
